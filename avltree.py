@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPDVWRomOXwpxzZO2IUmrBf",
+      "authorship_tag": "ABX9TyMSgoSxnwRH7EHn1F4eQ3z4",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -117,7 +117,7 @@
         "            tNode.item = rtnItem\n",
         "            tNode.right = rtnNode\n",
         "            tNode.height = 1 + max(tNode.right.height, tNode.left.height)\n",
-        "            type = self.__neecBalance(tNode)\n",
+        "            type = self.__needBalance(tNode)\n",
         "            if type != self.NO_NEED :\n",
         "                tNode = self.__balanceAVL(tNode, type)\n",
         "            return tNode\n",
