@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNbsL3rHMAKFzczs+M4L98W",
+      "authorship_tag": "ABX9TyPDVWRomOXwpxzZO2IUmrBf",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -35,7 +35,7 @@
       "outputs": [],
       "source": [
         "class AVLNode :\n",
-        "    def __init__(self. newItem, left, right, h) :\n",
+        "    def __init__(self, newItem, left, right, h) :\n",
         "        self.item = newItem\n",
         "        self.left = left\n",
         "        self. right = right\n",
