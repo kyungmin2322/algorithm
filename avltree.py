@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMSgoSxnwRH7EHn1F4eQ3z4",
+      "authorship_tag": "ABX9TyOfxhMQMLhNNqm/x6AbE34K",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -74,10 +74,10 @@
         "            type = self.__needBalance(tNode)\n",
         "            if(type != self.NO_NEED) :\n",
         "                tNode = self.__balancecAVL(tNode, type)\n",
-        "            else :\n",
-        "                tNode.right = self.__insertItem(tNode.right, x)\n",
-        "                tNode.height = 1 + max(tNode.right.height, tNode.left.height)\n",
-        "                type = self.__needBalance(tNode)\n",
+        "        else :\n",
+        "            tNode.right = self.__insertItem(tNode.right, x)\n",
+        "            tNode.height = 1 + max(tNode.right.height, tNode.left.height)\n",
+        "            type = self.__needBalance(tNode)\n",
         "            if type != self.NO_NEED :\n",
         "                tNode = self.__balanceAVL(tNode, type)\n",
         "        return tNode\n",
